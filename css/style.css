@@ -1,0 +1,125 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+header,nav,main,footer{
+ background-color: #50AAF2;
+color:#000000;
+width: 1280px;
+margin-left: auto;
+margin-right: auto;
+padding: 50px;
+}
+nav{
+ background-color:#8ecae6;
+ text-align: center;
+}
+nav ul li{
+ list-style-type: none;
+ display: inline-block;
+ background-color:cornflowerblue;
+ width: 10%;
+ padding: 10px;
+ text-align: center;
+ border-radius: 30px;
+ min-width: 100px;
+ /*margin-top: 5px;
+ margin-bottom: 5px;
+ margin-left: 5px;
+ margin-right: 5px;*/
+ margin: 5px;
+}
+nav ul li a:link, nav ul li a:visited{
+ text-decoration: none;
+ color:currentColor;
+}
+nav ul li:hover{
+ background-color: #A1F2E2;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ padding: 30px;
+}
+section{
+	 background-color: #028090;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ padding: 30px;
+ overflow: auto;
+}
+h2{margin-bottom: 30px;
+}
+h1{
+ text-align: center;
+ font-size: 48px;
+}
+footer{
+ text-align: center;
+ height: 20px;
+ background-color: #5095F2; 
+ font-size: 18px;
+}
+table{
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 30px;
+ border-spacing: 10px;
+}
+#tabla_1{
+ background-color: #8ecae6;
+ border: 3px solid red;
+ border-spacing: 10px;
+ border-collapse: collapse;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 30px;
+}
+#tabla_1 th{
+ font-size: 20px;
+ background-color: #A1F2E2;
+ color: #003049;
+}
+#tabla_1 th, #tabla_1 td{
+ border: 3px solid #50F29B; 
+ padding: 1opx;
+}
+#tabla_2
+width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 3px;
+ border-collapse: collapse;
+}
+#tabla_2 th{
+ background-color: antiquewhite;
+}
+#tabla_2td, #tabla_2 th{
+ padding: 10px;
+ border-width: 5px;
+ border-color: #A1C3F2;
+ border-style: solid;
+}
+#tabla_2 tbody tr:nth-child(even){
+ background-color:cadetblue;
+}
+#tabla_3{
+ width: 70%;
+ background-color:#50F2D2;
+ color: aqua;
+}
+#tabla_3 th{
+ background-color: dodgerblue;
+ color: aqua;
+}
+#tabla_3 td, #tabla_3 th{
+ border-width: 2px;
+ border-color: cadetblue;
+ border-style: solid;
+ padding: 20px;
+}
+#tabla_3 tr:hover{
+	background-color:dodgerblue
+ color: firebrick
+
+
+        
